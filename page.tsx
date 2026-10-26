@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, BookOpen, CheckCircle2, CircleHelp, Leaf, ShieldCheck, Sprout, Wheat } from "lucide-react";
-import FoodFinder from "@/components/FoodFinder";
+import FoodFinder from "./components/FoodFinder";
 
 const guides = [
   { category: "FIBRE GUIDE", title: "Everyday Indian foods rich in fibre", desc: "Learn how pulses, whole grains, vegetables and fruit contribute dietary fibre.", href: "/guides/fibre-in-indian-foods", icon: Sprout },
