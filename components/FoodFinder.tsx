@@ -2,8 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { ArrowDownRight, ArrowUpRight, Check, ChevronDown, Clock3, Database, Leaf, Search, ShieldCheck, Sparkles, Wheat } from "lucide-react";
-import { starterFoods, scaleNutrient, type FoodRecord } from "@/lib/foods";
-
+import { starterFoods, scaleNutrient, type FoodRecord } from "../foods";
 type ResultFood = FoodRecord & { fdcId?: number; provider?: string; brandOwner?: string | null };
 
 const popular = ["apple", "banana", "oats", "lentils", "almonds", "white rice"];
